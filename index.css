@@ -214,6 +214,46 @@ main{
     font-size:16px;
     font-weight: 400;
 }
+.contact{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:71px 0;
+}
+.contact-info>form{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:8px;
+   width:497px;
+    
 
+
+}
+.contact-title{
+    font-size: 67px;
+    font-weight: bold;
+    width:50%;
+}
+.contact-info input,textarea{
+    padding:20px 32px;
+    border-radius:10px;
+    background-color:rgba(255,255,255,.5) ;
+    border:none;
+    box-shadow: 1px 1px 5px gray;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+      resize:none;
+}
+.contact-info label{
+    font-weight: 600;
+
+}
+.contact-info button{
+    border-radius:10px;
+    padding:19px 110px;
+}
 
 
