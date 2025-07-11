@@ -255,5 +255,35 @@ main{
     border-radius:10px;
     padding:19px 110px;
 }
+footer{
+    background-color:rgba(255,255,255,.5) ;
+    padding:104px 455px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:15px;
+    color:#8987A1;
+}
+footer ul{
+    list-style: none;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: 500;
+}
+footer h2{
+    font-size: 100px;
+    color:#4E47FF;
+    font-family: "Inter", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+
+
+}
+footer p{
+    font-size: 19px;
+    font-weight: 500;
+}
 
 
