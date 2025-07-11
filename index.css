@@ -6,6 +6,10 @@
   font-style: normal;
   
 }
+body{
+    background-color: #f5f8ff;
+}
+
 /* shared property */
 button{
     background-color:#4E47FF;
@@ -70,6 +74,7 @@ header{
 main{
     width:1140px;
     margin:auto;
+    
 }
 .action{
     
@@ -136,3 +141,49 @@ main{
     font-size:24px;
     opacity:.5;
 }
+.review{
+    height:342px;
+    margin-top: 116px;
+}
+.review>h2{
+    font-size:42px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.review .card{
+    display:flex;
+    flex-direction: column;
+    gap:24px;
+    padding:24px;
+    border-radius: 14px;
+    background-color: rgba(255,255,255,.5);
+    
+
+    
+}
+.review-inside{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:20px;
+}
+
+.reviewer-name{
+    display:flex;
+    gap:10px;
+
+}
+.reviewer-name img{
+    border-radius: 50%;
+}
+.reviewer-name p{
+    font-weight: bold;
+    opacity:.5;
+}
+.reviewer-name #date{
+    opacity:.3;
+}
+
+
+
