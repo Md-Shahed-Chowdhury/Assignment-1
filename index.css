@@ -17,6 +17,7 @@ button{
     border-radius:  10px;
     border:none;
     font-weight: bold;
+    
 
 }
 
@@ -143,7 +144,7 @@ main{
 }
 .review{
     height:342px;
-    margin-top: 116px;
+    margin-top: 137px;
 }
 .review>h2{
     font-size:42px;
@@ -183,6 +184,35 @@ main{
 }
 .reviewer-name #date{
     opacity:.3;
+}
+.ready{
+    height:550px;
+    background-color: rgba(255,255,255,.5);
+    padding:71px 150px;
+    border-radius: 14px;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    margin-top: 137px;
+}
+.ready img{
+    border-radius: 48px;
+
+}
+.ready h2{
+    font-size: 50px;
+    font-weight: bold;
+}
+.ready p{
+    opacity:.5;
+}
+.ready button{
+    width:195px;
+    height:48px;
+    margin:0 auto;
+    font-size:16px;
+    font-weight: 400;
 }
 
 
